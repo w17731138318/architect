@@ -1,6 +1,6 @@
 #数据结构
-* [数据结构]
-	* [队列]
+* [数据结构](https://github.com/w17731138318/architect/tree/master/data-structure)
+	* [队列](https://github.com/w17731138318/architect/tree/master/data-structure/src/com/wwx/queue)
 	    * [非阻塞队列]ConcurrentLinkedQueue(无界线程安全)，采用CAS机制（compareAndSwapObject原子操作）。
         * [阻塞队列]ArrayBlockingQueue(有界)、LinkedBlockingQueue（无界）、DelayQueue、PriorityBlockingQueue，采用锁机制；使用 ReentrantLock 锁。
 	* [集合](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#集合)
