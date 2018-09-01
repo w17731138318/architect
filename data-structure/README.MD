@@ -3,7 +3,7 @@
 	* [队列](https://github.com/w17731138318/architect/tree/master/data-structure/src/com/wwx/queue)
 	    * [非阻塞队列]ConcurrentLinkedQueue(无界线程安全)，采用CAS机制（compareAndSwapObject原子操作）。
         * [阻塞队列]ArrayBlockingQueue(有界)、LinkedBlockingQueue（无界）、DelayQueue、PriorityBlockingQueue，采用锁机制；使用 ReentrantLock 锁。
-	* [集合](https://github.com/w17731138318/architect/tree/master/data-structure/src/com/wwx/Set)
+	* [集合](https://github.com/w17731138318/architect/tree/master/data-structure/src/com/wwx/Set)[连接](https://blog.csdn.net/qq_33642117/article/details/52040345)
 	* [链表、数组](https://github.com/w17731138318/architect/tree/master/data-structure/src/com/wwx/list)
 	* [字典Map、关联数组](https://github.com/w17731138318/architect/tree/master/data-structure/src/com/wwx/map)
 	* [栈](https://github.com/w17731138318/architect/tree/master/data-structure/src/com/wwx/Stack)
