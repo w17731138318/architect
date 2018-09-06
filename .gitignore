@@ -1,9 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 out/
-/design-patterns/.mvm
-/design-patterns/target
-/design-patterns/mvnw
-/design-patterns/mvnw.cmd
-/design-patterns/*.iml
+design-patterns/.mvm
+design-patterns/target
+design-patterns/mvnw
+design-patterns/mvnw.cmd
+design-patterns/*.iml
 
