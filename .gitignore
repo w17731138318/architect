@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/workspace.xml
+.idea/
 out/
 /design-patterns/.mvm
 /design-patterns/target
