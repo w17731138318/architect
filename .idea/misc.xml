@@ -14,6 +14,18 @@
       </map>
     </option>
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/design-patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbodemo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbodemoservice/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbodemoclient/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbosayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/jvm-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
