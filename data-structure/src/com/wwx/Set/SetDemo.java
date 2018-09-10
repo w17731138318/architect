@@ -65,16 +65,20 @@ public class SetDemo {
      */
     public static void set3(){
         TreeSet ts = new TreeSet();
-        ts.add("ccc");
-        ts.add("aaa");
-        ts.add("ddd");
-        ts.add("bbb");
 
+        ts.add("李四");
+        ts.add("张三");
+//        ts.add("ddd");
+//        ts.add("bbb");
+//        ts.add(new Person("张三",20));
+//        ts.add(new Person("李四",20));
+//        ts.add(new Person("王五",22));
+//        ts.add(new Person("张三",24));
         System.out.println(ts); // [aaa, bbb, ccc, ddd]
 
     }
 }
-class Person {
+class Person implements Comparable<Person> {
     private String name;
     private int age;
 
@@ -127,4 +131,18 @@ class Person {
         return "Person@name:" + this.name + " age:" + this.age;
     }
 
+    @Override
+    public int compareTo(Person o) {
+            if (o instanceof Person) {
+                Person e = (Person) o;
+                if(this.age == e.age){
+                    return this.name.compareTo(e.name);
+                }else if(this.age > e.age){
+                    return 1;
+                }else if(this.age < e.age){
+                    return -1;
+                }
+            }
+            return 0;
+    }
 }
