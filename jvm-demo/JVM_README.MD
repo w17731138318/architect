@@ -15,3 +15,5 @@ jmap -dump:format=b,file=heap.hprof 22860
 ![1](https://github.com/w17731138318/architect/blob/master/jvm-demo/src/main/java/com/jvm/jvmdemo/web/img/1.png)
 ![2](https://github.com/w17731138318/architect/blob/master/jvm-demo/src/main/java/com/jvm/jvmdemo/web/img/2.png)
 ![3](https://github.com/w17731138318/architect/blob/master/jvm-demo/src/main/java/com/jvm/jvmdemo/web/img/3.png)
+## CPU利用率高怎么解决 查看线程 和 死锁
+jstack 线程 > 线程.txt
