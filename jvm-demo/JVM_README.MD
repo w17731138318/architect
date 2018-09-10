@@ -17,3 +17,18 @@ jmap -dump:format=b,file=heap.hprof 22860
 ![3](https://github.com/w17731138318/architect/blob/master/jvm-demo/src/main/java/com/jvm/jvmdemo/web/img/3.png)
 ## CPU利用率高怎么解决 查看线程 和 死锁
 jstack 线程 > 线程.txt
+## Java VisualVM
+在tomcat 下 catalina.sh 文件中添加以下配置
+
+JAVA_OPTS="$JAVA_OPTS -Dcom.sun.management.jmxremote.port=1099 
+                        -Dcom.sun.management.jmxremote.ssl=false 
+                        -Dcom.sun.management.jmxremote.authenticate=false 
+                        -Djava.rmi.server.hostname=192.168.1.54"
+
+### Java VisualVM 插件 btrace 
+#### 拦截方法 
+#### 构造函数
+#### 重写的方法 重载的方法
+#### 拦截的时机 入口 返回 报错时
+#### 拦截this 参数 返回值
+#### 其他
