@@ -11,3 +11,5 @@ jps -l 查看java 进程
 ## 用 jmap 命令导出内存信息文件
 jmap -dump:format=b,file=heap.hprof 22860
 ## 用MAT工具分析导出的文件
+
+![Alt text](https://github.com/w17731138318/architect/blob/master/jvm-demo/src/main/java/com/jvm/jvmdemo/web/img/1.png)
