@@ -12,4 +12,4 @@ TCP：transmission control protocol 传输控制协议
 
 UDP：user data protocol 用户数据报协议
 
-![1](https://github.com/w17731138318/architect/blob/master/jvm-demo/src/main/java/com/jvm/jvmdemo/web/img/1.png)
+![1](https://github.com/w17731138318/architect/blob/master/OSI_TCP_IP/src/1.png)
