@@ -1,4 +1,4 @@
-package com.wwx.designpatterns.SimpleFactoryPattern;
+package com.wwx.designpatterns.Creational.SimpleFactoryPattern;
 
 /**
  * GeneralMouse

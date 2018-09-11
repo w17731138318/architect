@@ -1,7 +1,7 @@
-package com.wwx.designpatterns.SimpleFactoryPattern;
+package com.wwx.designpatterns.Creational.SimpleFactoryPattern;
 
 /**
- * MouseFactory
+ * MouseFactory 普通工厂方法模式
  *
  * @author 王伟鑫
  * @version 0.1v
