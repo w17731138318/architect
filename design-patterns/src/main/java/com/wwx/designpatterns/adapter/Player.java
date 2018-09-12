@@ -3,7 +3,7 @@ package com.wwx.designpatterns.adapter;
 import lombok.Data;
 
 /**
- * Player
+ * Player 玩家
  *
  * @author 王伟鑫
  * @version 0.1v
@@ -20,8 +20,16 @@ public abstract class Player {
 		this.name = name;
 	}
 
+	/**
+	 * 攻击
+	 * @return
+	 */
 	public abstract Action attack();
 
+	/**
+	 * 繁育
+	 * @return
+	 */
 	public abstract Action defense();
 
 }

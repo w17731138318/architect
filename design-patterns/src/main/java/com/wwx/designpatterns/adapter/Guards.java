@@ -1,7 +1,7 @@
 package com.wwx.designpatterns.adapter;
 
 /**
- * Guards
+ * Guards 后卫
  *
  * @author 王伟鑫
  * @version 0.1v

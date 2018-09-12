@@ -1,7 +1,7 @@
 package com.wwx.designpatterns.adapter;
 
 /**
- * Forwards
+ * Forwards 前锋
  *
  * @author 王伟鑫
  * @version 0.1v
