@@ -14,12 +14,12 @@ public class SelectionSort {
 	private SelectionSort() {
 	}
 
-	public static void sort(int[] arr) {
+	public static void sort(Comparable[] arr) {
 		int n = arr.length;
 		for (int i = 0; i < n; i++) {
 			int minIndex = i;
 			for (int j = i+1; j <n ; j++) {
-				if(arr[j]<arr[minIndex]){
+				if( arr[j].compareTo( arr[minIndex] ) < 0 ){
 					minIndex = j;
 				}
 			}
@@ -27,10 +27,20 @@ public class SelectionSort {
 		}
 	}
 	public static void main(String[] args) {
-		int[] arr = {10,9,8,7,6,5,4,3,2,1};
-		SelectionSort.sort(arr);
-		for( int i = 0 ; i < arr.length ; i ++ ){
-			System.out.print(arr[i]);
-		}
+		/**
+		 * 测试排序算法辅助函数
+		 */
+		int N = 20000;
+		Integer[] arr = ArrayUtil.generateRandomArray(N, 0, 100000);
+		ArrayUtil.testSort("com.wwx.algorithm.ASortingBasic.SelectionSort", arr);
+
+		Student[] d = new Student[4];
+		d[0] = new Student("D",90);
+		d[1] = new Student("C",100);
+		d[2] = new Student("B",95);
+		d[3] = new Student("A",95);
+		SelectionSort.sort(d);
+		for( int i = 0 ; i < d.length ; i ++ )
+			System.out.println(d[i]);
 	}
 }
