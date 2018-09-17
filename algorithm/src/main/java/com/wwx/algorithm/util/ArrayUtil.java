@@ -15,7 +15,7 @@ public class ArrayUtil {
 	 * @param i
 	 * @param j
 	 */
-	private static void swap(int[] arr, int i, int j) {
+	public static void swap(int[] arr, int i, int j) {
 		int t = arr[i];
 		arr[i] = arr[j];
 		arr[j] = t;
