@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/dubbodemoclient/pom.xml" />
         <option value="$PROJECT_DIR$/dubbosayservice/pom.xml" />
         <option value="$PROJECT_DIR$/jvm-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithm/pom.xml" />
       </list>
     </option>
   </component>
