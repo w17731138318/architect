@@ -1,7 +1,7 @@
 package com.wwx.designpatterns.demo;
 
-import com.wwx.designpatterns.Proxy.People;
-import com.wwx.designpatterns.Proxy.Proxy;
+import com.wwx.designpatterns.structuralPattern.Proxy.People;
+import com.wwx.designpatterns.structuralPattern.Proxy.Proxy;
 import org.junit.Test;
 
 /**

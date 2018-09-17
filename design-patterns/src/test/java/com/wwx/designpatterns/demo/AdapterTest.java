@@ -1,8 +1,9 @@
 package com.wwx.designpatterns.demo;
 
-import com.wwx.designpatterns.adapter.*;
-import com.wwx.designpatterns.adapter1.*;
-import com.wwx.designpatterns.adapter2.AudioPlayer;
+import com.wwx.designpatterns.structuralPattern.adapter.*;
+import com.wwx.designpatterns.structuralPattern.adapter1.*;
+import com.wwx.designpatterns.structuralPattern.adapter2.AudioPlayer;
+import com.wwx.designpatterns.structuralPattern.adapterPattern.*;
 import org.junit.Test;
 
 /**
@@ -14,6 +15,26 @@ import org.junit.Test;
  * @see
  **/
 public class AdapterTest {
+	@Test
+	public void clazzAdapterTest(){
+		IOutlet outlet = new ClazzAdapterOutlet();
+		outlet.chaKou110();
+		outlet.chaKou220();
+	}
+	@Test
+	public void objectAdapterTest(){
+		OldOutlet oldOutlet = new OldOutlet();
+		IOutlet outlet = new ObjectAdapterOutlet(oldOutlet);
+		outlet.chaKou110();
+		outlet.chaKou220();
+	}
+	@Test
+	public void InterfaceAdapterTest(){
+		final ChaKou110 chaKou11 = new ChaKou110();
+		chaKou11.chaKou110();
+		final ChaKou220 chaKou22 = new ChaKou220();
+		chaKou22.chaKou220();
+	}
 	@Test
 	public void test() {
 		Player james = new Forwards("James");
