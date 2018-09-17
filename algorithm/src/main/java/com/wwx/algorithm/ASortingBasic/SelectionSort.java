@@ -1,7 +1,6 @@
 package com.wwx.algorithm.ASortingBasic;
 
 import com.wwx.algorithm.util.ArrayUtil;
-import lombok.experimental.PackagePrivate;
 
 /**
  * SelectionSort
