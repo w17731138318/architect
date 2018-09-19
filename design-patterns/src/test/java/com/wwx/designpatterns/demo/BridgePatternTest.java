@@ -28,5 +28,12 @@ public class BridgePatternTest {
 		Jdbc db2Jdbc = new DB2Jdbc();
 		bridge2.setJdbc(db2Jdbc);
 		bridge2.connect();
+		/**
+		 * 新增 OracleJdbc 驱动时 只需增加OracleJdbc实现。即可使用
+		 */
+		Bridge bridge3 = new MyBridge();
+		Jdbc oracleJdbc = new OracleJdbc();
+		bridge3.setJdbc(oracleJdbc);
+		bridge3.connect();
 	}
 }
