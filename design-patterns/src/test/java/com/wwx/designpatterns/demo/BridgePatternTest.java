@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * BridgePatterntest
- *
+ * CompositePattern
  * @author 王伟鑫
  * @version 0.1v
  * @create 2018-09-18 17:59
