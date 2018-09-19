@@ -10,10 +10,10 @@ package com.wwx.designpatterns.creationalPattern.AbstractFactory1;
  **/
 public class Test {
 	public static void main(String[] args) {
-		HumanFactory humanFactory = new HumanFactory();
-		Barracks barracks = humanFactory.createBarracks();
+		WarcraftFactory factory = new HumanFactory();
+		Barracks barracks = factory.createBarracks();
 		barracks.productInfantry();
-		Ordnance ordnance = humanFactory.createOrdnance();
+		Ordnance ordnance = factory.createOrdnance();
 		ordnance.builderJuggernaut();
 	}
 }
